@@ -19,16 +19,16 @@ import androidx.navigation.navArgument
 import com.example.calorietracker.ui.theme.CalorieTrackerTheme
 import com.example.core.domain.preferences.Preferences
 import com.example.core.navigation.Route
-import com.example.onboarding_presentation.activity.ActivityScreen
-import com.example.onboarding_presentation.age.AgeScreen
-import com.example.onboarding_presentation.gender.GenderScreen
-import com.example.onboarding_presentation.goal.GoalScreen
-import com.example.onboarding_presentation.height.HeightScreen
-import com.example.onboarding_presentation.nutrient_goal.NutrientGoalScreen
-import com.example.onboarding_presentation.weight.WeightScreen
-import com.example.onboarding_presentation.welcome.WelcomeScreen
-import com.example.tracker_presentation.search.SearchScreen
-import com.example.tracker_presentation.tracker_overview.TrackerOverviewScreen
+import com.example.presentation.activity.ActivityScreen
+import com.example.presentation.age.AgeScreen
+import com.example.presentation.gender.GenderScreen
+import com.example.presentation.goal.GoalScreen
+import com.example.presentation.height.HeightScreen
+import com.example.presentation.nutrient_goal.NutrientGoalScreen
+import com.example.presentation.weight.WeightScreen
+import com.example.presentation.welcome.WelcomeScreen
+import com.example.presentation.search.SearchScreen
+import com.example.presentation.home.TrackerOverviewScreen
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

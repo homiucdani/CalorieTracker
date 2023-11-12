@@ -1,8 +1,8 @@
 package com.example.calorietracker.repository
 
-import com.example.tracker_domain.model.TrackableFood
-import com.example.tracker_domain.model.TrackedFood
-import com.example.tracker_domain.repository.TrackerRepository
+import com.example.domain.model.TrackableFood
+import com.example.domain.model.TrackedFood
+import com.example.domain.repository.TrackerRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableSharedFlow
 import java.time.LocalDate
