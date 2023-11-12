@@ -1,0 +1,5 @@
+why we put data, domain etc in this package, why we do the implementation in the core -> data
+We use this information on the entire project, so the specific features that implement this core package knows
+from where to load the data.
+With the help of the screens we gather a bunch of data, when we arrive on the main screen where we track all the data
+we can access this core package and the implementation.
